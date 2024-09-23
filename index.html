@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="sketch.js"></script>
+
+  </head>
+  <body>
+    <!--<a href="http://127.0.0.1:3000/ItemOnePage/item-one.html">Link page 1</a> <!--go to item one page-->
+    <!--<a href="http://127.0.0.1:3000/ItemTwoPage/item-two.html">Link page 2</a> <!--go to item two page-->
+    <!--<a href="http://127.0.0.1:3000/ItemThreePage/item-three.html">Link page 3</a> <!--go to item three page-->
+  
+  <main>
+      <h1> Welcome to the "junk" room <br/></h1>
+
+     
+    </main>
+    <h3>Roam around and explore the room...</h3>
+    <div class="image-container">
+      <img id="environment" src="/Images/EUI_Project_1_Background - pre finished project.png" class="background-image">
+      <img id="cameraObject" src="/Images/Camera Item Big.png" alt="Camera Image" class="foreground-items" onclick="goToDifferentPage()">
+      <img id="mirrorObject" src="/Images/EUI_Project_1_Mirror.png" alt="Mirror Image" class="foreground-items" onclick="goToDifferentPageTwo()">
+      <img id="shellObject" src="/Images/EUI_Project_1_Shell.png" alt="Shell Image" class="foreground-items" onclick="goToDifferentPageThree()">
+      <div id="tooltip" class="tooltip"></div>
+    </div>
+    
+  </body>
+</html>
