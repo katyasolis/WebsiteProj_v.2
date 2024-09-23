@@ -1,0 +1,210 @@
+/* item-one.css */
+
+h1 {
+  font-size: 350%;
+  color: rgb(203, 203, 209);
+  text-align: left; 
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  text-shadow: 0 0 5px rgba(203, 203, 209, 0.5);
+  padding-left: 20px;
+  left: 30vw;
+}
+
+#camRhyme { 
+  font-size: 120%;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  color:rgb(91, 190, 214);
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  animation: marquee 20s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+h2 {
+  color: rgb(166, 166, 194);
+  text-align: center; 
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  text-shadow: 0 0 5px rgba(166, 166, 194, 0.5);
+}
+
+h2:hover {
+  color: rgb(100, 164, 180);
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color:#f5f1eb93
+}
+
+h4 {
+  text-align: center;
+  color:#f5f1eb93
+}
+
+h6 {
+  text-align: center;
+  color:#f5f1eb52;
+}
+
+img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: auto;
+  
+}
+
+body {
+  position: relative; 
+  background-color: rgb(43, 47, 48);
+  text-align: center;
+}
+
+a {
+  position: relative;
+  color: rgb(203, 203, 209);
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  display: inline-block; /* Corrected to inline-block */
+  text-align: center;
+  top: 300px;
+  left: width/2;
+}
+
+a:hover {
+  color: rgb(91, 190, 214);
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* button */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container h1 {
+  font-size: 1.5rem;
+  color: rgb(66, 66, 66);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 1rem;
+  color: rgb(95, 95, 95);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container button {
+  background-color: rgb(166, 166, 194);
+  color: #111718;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.container button:hover {
+  background-color: #1a2324;
+  color: #f3f3d3;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+  gap: 20px; /* Optional: Add space between the images */
+}
+
+#first-phone-cam {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid rgb(203, 203, 209);
+  border-radius: 10px;
+  left: 30vw;
+}
+
+#auto-focus {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid rgb(203, 203, 209);
+  border-radius: 10px;
+}
+
+#kodak {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid rgb(203, 203, 209);
+  border-radius: 10px;
+  left: 5vw;
+  margin: 0;
+}
+
+
+#startButton {
+  background-color:rgb(146, 38, 38);
+  color:rgb(255, 255, 255);
+}
+
+#captureButton {
+  background-color:rgb(60, 180, 36);
+  color:rgb(255, 255, 255);
+}
+
+#canvasElement {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid rgb(203, 203, 209);
+  border-radius: 10px;
+}
+
+#videoElement {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid rgb(203, 203, 209);
+  border-radius: 10px;
+}
